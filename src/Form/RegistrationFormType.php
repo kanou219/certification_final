@@ -21,6 +21,7 @@ class RegistrationFormType extends AbstractType
         $builder
             ->add('prenom', TextType::class, [
                 'label' => 'Ajouter un prenom',
+                
                 'required'=> false
             ])
 
